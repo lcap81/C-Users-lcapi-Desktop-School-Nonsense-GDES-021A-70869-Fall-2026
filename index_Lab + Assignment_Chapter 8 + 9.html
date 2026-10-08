@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab + Assignment Chapters 8 and 9</title>
+</head>
+<body>
+    <div style="border: 2px solid purple;">
+        <h1>Hi, Welcome to WVC!</h1>
+        <h2>Log in first to get the best use out of this site:</h2>
+        <form action="index.html" method="post">
+            <p><label for="username">Username:</label>
+                <input type="text" id="username" name="username" required maxlength="15" placeholder="WVC Student ID"></p>
+            <p><label for="password">Password:</label>
+                <input type="password" id="password" name="password" required maxlength="15" placeholder="15 character max"></p>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <p>
+    After you've logged in, <a href="video.html">CLICK HERE</a>
+    to watch a video or listen to some music!
+    </p>
+</audio>
+       
+    </p>
+    <img src="generic college.jpg" width="450" height="600" alt="College Drive, University Drive" style="border: 2px solid orange;">
+
+    <div style="border: 2px solid green;">
+        <h2>About the school</h2>
+        <p>We are the best at what we do! From the arts to the sciences, we've got you covered. Here you will find all the information you need:</p>
+        <ul>
+            <li>Course list</li>
+            <li>How to sign up for classes</li>
+            <li>Resource centers</li>
+            <li>Faculty list</li>
+            <li>Campus map</li>
+        </ul>
+    </div>
+
+    <
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.250150151413!2d-122.01359842368736!3d37.26549484133254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e4a96742ee933%3A0xdde18e9972ad1dfb!2sWest%20Valley%20College!5e0!3m2!1sen!2sus!4v1791472030661!5m2!1sen!2sus" width="450" height="350" title="West Valley College campus map"></iframe>
+
+    <div style="border: 2px solid pink;">
+        <p>Still need more information? No worries! Feel free to use our search bar below!</p>
+        <form action="https://www.google.com/search" method="get">
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="q" placeholder="Search for school information">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div style="border: 2px solid red;">
+        <h2>Join our Mailing list!</h2>
+        <p>If you join our mailing list, you will get exclusive information regarding upcoming events, assignments, and well... more events! Be the first to be “in the know”. We promise not to spam you. <em>Really.</em></p>
+        <form action="index.html" method="post">
+            <label for="mailing-email">Please enter your email address:</label>
+            <input type="email" id="mailing-email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div style="border: 2px solid blue;">
+        <h2>What kind of music applications do you like using while studying or on the go?</h2>
+        <p>You can choose more than one music streaming application:</p>
+        <form action="index.html" method="get">
+            <p>
+                <label><input type="checkbox" name="service" value="itunes" checked> iTunes</label>
+                <label><input type="checkbox" name="service" value="lastfm"> Last.fm</label>
+                <label><input type="checkbox" name="service" value="spotify"> Spotify</label>
+            </p>
+        </form>
+    </div>
+
+    <div style="border: 2px solid black;">
+        <h2>Favorite style of music?</h2>
+        <form action="index.html" method="get">
+            <p>Please select your favorite genre:</p>
+            <p>
+                <label><input type="radio" name="genre" value="rock" checked> Rock</label>
+                <label><input type="radio" name="genre" value="pop"> Pop</label>
+                <label><input type="radio" name="genre" value="jazz"> Jazz</label>
+            </p>
+        </form>
+    </div>
+
+    <div style="border: 2px solid orange;">
+        <h2>Are you a MacOS, Windows, or Linux user?</h2>
+        <p>As you browse the internet, which kind of computer OS are you using?</p>
+        <form action="index.html" method="get">
+            <label for="os">Operating system:</label>
+            <select id="os" name="os">
+                <option value="windows">Windows</option>
+                <option value="macos">MacOS</option>
+                <option value="linux">Linux</option>
+            </select>
+        </form>
+    </div>
+
+    <div style="border: 2px solid purple;">
+        <h2>Add an image for your profile!</h2>
+        <img src="Me.png" width="600" height="600" alt="Pic of Laura">
+        <form action="index.html" method="post" enctype="multipart/form-data">
+            <p><label for="profile-image">Upload your profile image:</label></p>
+            <input type="file" id="profile-image" name="profile_image" accept="image/*">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <h2>Contact?</h2>
+    <p>Please use the form below:</p>
+    <form action="index.html" method="post">
+        <fieldset>
+            <legend>Contact details</legend>
+            <label for="first-name">First Name:</label><br>
+            <input type="text" id="first-name" name="first_name"><br>
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last_name"><br>
+            <label for="contact-email">Email:</label><br>
+            <input type="email" id="contact-email" name="email">
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Set a date when you can visit the campus!</h2>
+    <form action="index.html" method="post">
+        <label for="visit-date">Visit date:</label>
+        <input type="date" id="visit-date" name="visit_date">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
