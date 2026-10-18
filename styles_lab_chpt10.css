@@ -1,0 +1,46 @@
+
+
+* {
+font-family: Arial, Verdana, sans-serif;}
+
+h1 {
+font-family: "Courier New", monospace;}
+
+h2 {
+color: blue;}
+
+.firstParagraph {
+color: purple;
+font-size: 25px;
+background-color: green;}
+
+ul {
+border: 2px solid orange;}
+
+li {
+font-size: 18px;
+color: red;}
+
+.headerTwo {
+color: brown;
+font-size: 35px;
+background-color: pink;}
+
+#specialHeader {
+color: green;
+font-size: 30px;
+border: 4px solid red;}
+
+.blueBox {
+border: 10px solid blue;}
+
+.blueBox p {
+color: red;
+font-size: 20px;}
+
+.purpleBox {
+background-color: purple;}
+
+.purpleBox p {
+color: red;
+font-size: 32px;}
