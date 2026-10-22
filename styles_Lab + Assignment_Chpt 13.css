@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+a:link {
+color:yellow;
+text-decoration: none;
+
+}
+a:visited {
+color:crimson;
+
+}
+a:hover {
+color:forestgreen;
+text-decoration: underline;
+
+}
+a:active {
+color:mediumvioletred;
+
+}
+
+nav {
+    font-family: 'Mystery Quest', sans-serif;   
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 25px;
+}
+
+nav li {
+    font-family: 'Mystery Quest', sans-serif;
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Mystery Quest', sans-serif;  
+    font-size: 50px; 
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+    margin: 5% 20%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: 'Mystery Quest', sans-serif;
+    color: tomato;   
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+    margin: 5% 20%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+
+p {
+    font-family: 'Mystery Quest', sans-serif;  
+    text-align: center;
+}
+
+form {
+    font-family: 'Mystery Quest', sans-serif;  
+    text-align: center; 
+}
+
+.biography {
+    background-color:deepskyblue;
+    color:#000;
+    text-shadow: 2px 2px 4px #000;
+    padding: 20px;
+}
+
+.styling-list li {
+    display: block;
+}
+
+.styling-list {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.styling-box {
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: darkgreen;
+    font-size: 20px;
+}
+
+.centerImage {
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px #777777;
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* iPAD */
+@media (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .centerImage {
+        width: 400px;
+    }
+
+    .styling-box {
+        height: 350px;
+        width: 350px;
+        font-size: 15px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .centerImage {
+        width: 250px;
+    }
+
+    .styling-box {
+        height: 275px;
+        width: 275px;
+        font-size: 12px;
+    }
+}
+
+
+
+
